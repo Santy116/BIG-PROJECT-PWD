@@ -1,0 +1,219 @@
+/* Footer Styles */
+.aliexpress-footer {
+    background-color: #f6f6f6;
+    color: #333;
+    padding: 40px 0 20px;
+    border-top: 1px solid #e6e6e6;
+    font-size: 14px;
+}
+
+.footer-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.footer-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #ff6a00;
+    text-decoration: underline;
+}
+
+.social-media {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    margin-right: 15px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover img {
+    transform: scale(1.1);
+}
+
+.app-download p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.app-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-buttons a {
+    margin-bottom: 10px;
+}
+
+.app-buttons img {
+    height: 40px;
+    width: auto;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.payment-methods,
+.shipping-methods {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.payment-methods p,
+.shipping-methods p {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.payment-icons,
+.shipping-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.payment-icons img,
+.shipping-icons img {
+    height: auto;
+    width: 65px;
+    background: white;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.copyright p {
+    color: #999;
+    font-size: 12px;
+}
+
+.country-region {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #666;
+    font-size: 12px;
+}
+
+.country-region span:not(:last-child) {
+    display: flex;
+    align-items: center;
+}
+
+.footer-extra-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 40px;
+    margin: 32px 0 24px 0;
+    justify-content: center;
+}
+.footer-extra-group {
+    flex: 1 1 320px;
+    min-width: 260px;
+    max-width: 400px;
+    margin: 0;
+}
+.footer-extra-group h4 {
+    font-size: 15px;
+    margin-bottom: 6px;
+    color: #222;
+}
+.footer-extra-group div {
+    font-size: 13px;
+    color: #555;
+}
+@media (max-width: 900px) {
+    .footer-extra-info {
+        flex-direction: column;
+        gap: 18px 0;
+    }
+    .footer-extra-group {
+        max-width: 100%;
+    }
+}
+/* Additional Footer Styles for Integration */
+.aliexpress-footer {
+    margin-top: 0;
+}
+.footer-extra-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px 40px;
+    margin: 32px 0 24px 0;
+}
+.footer-extra-group {
+    min-width: 0;
+}
+@media (max-width: 900px) {
+    .footer-extra-info {
+        grid-template-columns: 1fr;
+        gap: 18px 0;
+    }
+}
+
+.footer-legal {
+    background: #111;
+    color: #fff;
+    padding: 18px 12px;
+    text-align: center;
+    font-size: 0.80rem;
+    letter-spacing: 0.1px;
+    width: 100%;
+    margin: 0;
+    border-top: 1px solid #222;
+}

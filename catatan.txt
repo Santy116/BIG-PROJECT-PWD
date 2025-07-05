@@ -1,0 +1,35 @@
+walbayexpress_crud/
+│
+├── admin/
+│   ├── dashboard.php
+│   ├── login.php
+│   ├── logout.php
+│   └── produk/
+│       ├── create.php
+│       ├── delete.php
+│       └── edit.php
+│
+├── assets/
+│   ├── css/
+│   │   ├── admin.css
+│   │   ├── footer.css
+│   │   ├── header.css
+│   │   └── main.css
+│   │
+│   ├── img/
+│   │   └── products/
+│   │       └── (gambar produk di sini)
+│   │
+│   └── js/
+│       └── admin.js
+│
+├── includes/
+│   ├── admin-sidebar.php
+│   ├── admin-topbar.php
+│   ├── auth.php
+│   ├── footer.php
+│   └── header.php
+│
+├── config.php
+├── index.php
+└── walbayexpress_crud.sql
